@@ -17,6 +17,7 @@
         </el-form-item>
         <el-form-item>
           <el-checkbox :value="true">我已阅读并同意用户协议和隐私条款</el-checkbox>
+		  /* https://github.com/itzhuangzhuang/hm-toutiao-pc-103.git */
         </el-form-item>
         <el-form-item>
           <el-button @click="login()" type="primary" style="width:100%">登 录</el-button>
